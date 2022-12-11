@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylecss/second.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <title>Second step</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container menu">
+                <div class="menu-left">
+                    <img src="../images/logo.svg" alt="Logo">
+                </div>
+                <div class="menu-right">
+                    <ul class="menu-right-ilovalar">
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About </a></li>
+                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#">Log in</a></li>
+                        <li><a href="#">Open an account</a></li>
+                        <li><a href="#">EN</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <hr>
+    <main class="main">
+        <div class="main-logo">
+            <img src="../images/logo.svg" alt="">
+        </div>
+        <div class="main-heading-1">
+            <h1>Welcome to ByTrend!</h1>
+        </div>
+        <div class="main-subtitle">
+            <p>Already have an account?</p>
+            <a class="main-subtile-ilova" href="../pageshtml/third.html">Log in</a>
+        </div>
+        <form action="#">
+            <div class="email">
+                <label for="email">Email*</label> <br>
+                <input type="email" placeholder="Email address" id="email" required>
+            </div>
+            <div class="phone">
+                <div class="left">
+                  <label for="phone">Phone*</label> <br>
+                  <input type="tel" id="phone" placeholder="+7" readonly/>
+                </div> 
+                <div class="right"> <br>
+                  <input type="tel" placeholder="965-748-89-90" required/>
+                </div>
+              </div>
+              <div class="country-city">
+                <div class="country">
+                    <label for="country">Country*</label> <br>
+                     <select name="country" id="country">
+                        <option value="Russia">Russia</option>
+                        <option value="USA">USA</option>
+                        <option value="China">China</option>
+                        <option value="Japan">Japan</option>
+                     </select>
+                </div>
+                <div class="city">
+                    <label for="city">City*</label> <br>
+                    <input type="text" placeholder="Name of the city" id="city">
+                </div>
+              </div>
+              <div class="password">
+                <label for="password">Password:</label> <br>
+                <input type="password" name="password" id="password" placeholder="************" required/>
+                <i class="bi bi-eye-slash interface" id="togglePassword"></i>
+            </div>
+            <div class="confirm-password">
+                <label for="confirm">Confirm password*</label> <br>
+                <input type="password" id="confirm" required>
+            </div>
+            <button class="register">Register</button>
+            <p class="subtitle-p">By signing up, you are agreeing to our Terms & Conditions <br> and Privacy Policy.</p>
+        </form>
+    </main>
+    <script src="../appjs/app.js"></script>
+</body>
+</html>

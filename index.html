@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=dev`ice-width, initial-scale=1.0">
+    <title>HOMEWORK</title>
+    <link rel="stylesheet" href="./stylecss/main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container menu">
+                <div class="menu-left">
+                    <img src="./images/logo.svg" alt="Logo">
+                </div>
+                <div class="menu-right">
+                    <ul class="menu-right-ilovalar">
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About </a></li>
+                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#">Log in</a></li>
+                        <li><a href="#">Open an account</a></li>
+                        <li><a href="#">EN</a></li>
+                    </ul>
+                </div>
+                <div class="hamburger">
+                    <button onclick="openNavbar()"><img src="./images/menu_FILL0_wght400_GRAD0_opsz48 (2).svg" alt=""></button>
+                </div>
+                <div id="navbar-responsive">
+                    <ul>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About </a></li>
+                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#">Log in</a></li>
+                        <li><a href="#">Open an account</a></li>
+                        <li><a href="#">EN</a></li>
+                    </ul>
+               </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="main">
+            <div class="main-logo">
+                <img src="./images/logo.svg" alt="">
+            </div>
+            <div class="main-heading-1">
+                <h1>Welcome to ByTrend!</h1>
+            </div>
+            <div class="main-subtitle">
+                <p>Already have an account?</p>
+                <a class="main-subtile-ilova" href="./pageshtml/second.html">Log in</a>
+            </div>
+            <form action="#">
+                <div class="introduce">          
+                    <div class="introduce-name">
+                        <label for="first name">First name*</label> <br>
+                        <input type="text" id="first name" placeholder="Alexander" required> 
+                    </div>       
+                    <div class="introduce-family">
+                        <label for="last name">Last name*</label><br>
+                        <input type="text" id="last name" placeholder="Your surname" required>                 
+                    </div>
+                </div>
+                <div class="date">
+                    <label for="birth">Birth date*</label>
+                    <input type="text" placeholder="06.12.1992">
+                    <img class="date-image" src="./Dates/Date 16 - 24px.svg" alt="">
+                </div>
+                <div class="gender">
+                    <label for="gender">Gender*</label> <br>
+                    <div class="choose">
+                        <span>
+                            <input class="radio" type="radio" id="gender=">
+                            <p>Female</p>
+                        </span>
+                        <span>
+                            <input class="radio-1" type="radio" id="gender=" required>
+                            <p>Male</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="skype">
+                    <label for="skype">Skype</label> <br>
+                    <input type="text" id="skype" placeholder="Your login Skype" required>
+                </div>
+                <div class="promo">
+                    <label for="promo">Promo</label> <br>
+                    <input type="text" placeholder="Your promo" required>
+                </div>
+                <button class="btn" type="submit">
+                    Continue
+                    <img class="strelka" src="./Arrows/Arrow Right 1 - 24px.svg" alt="">
+                </button>            
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>©2020 All Rights Reserved. Lorem Technologies, Inc.</p>
+    </footer>
+    <script src="./appjs/app.js"></script>
+</body>
+</html>
